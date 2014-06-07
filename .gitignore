@@ -1,0 +1,35 @@
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+.DS_Store
+
+# local configuration file (sdk path, etc)
+local.properties
+
+# vim swap files
+*.swp
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IDEA files
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+target/
+
+dump.txt
