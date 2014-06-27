@@ -1,35 +1,36 @@
+#built application files
+*.apk
 *.ap_
 
 # files for the dex VM
 *.dex
 
-# java class files
+# Java class files
 *.class
 
 # generated files
 bin/
 gen/
-out/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
 .DS_Store
 
-# local configuration file (sdk path, etc)
-local.properties
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
 
 # vim swap files
 *.swp
 
-# Eclipse
-.classpath
-.project
-.settings/
-
-# IDEA files
-.idea/
-*.iml
-*.iws
-
-# Maven
-log/
-target/
-
-dump.txt
