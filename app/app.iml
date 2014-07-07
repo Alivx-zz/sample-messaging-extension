@@ -61,7 +61,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="pushbullet_api_v1" level="project" />
+    <orderEntry type="library" exported="" name="android-extensions-1.0.4" level="project" />
   </component>
 </module>
 

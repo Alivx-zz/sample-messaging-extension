@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 19
     buildToolsVersion '20.0.0'
+
     defaultConfig {
         applicationId 'com.pushbullet.android.extension.messaging.sample'
         minSdkVersion 16
@@ -10,12 +11,11 @@ android {
         versionCode 1
         versionName '1.0'
     }
-    productFlavors {
-    }
+
     buildTypes {
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.pushbullet:android-extensions:1.0.4@aar'
 }
